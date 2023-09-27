@@ -1,0 +1,20 @@
+:root {
+  --be-foreground-base: 0 0 0;
+  --be-primary-light: 191 219 254;
+  --be-primary: 59 130 246;
+  --be-primary-dark: 37 99 235;
+  --be-on-primary: 255 255 255;
+  --be-danger: 179 38 30;
+  --be-background: 255 255 255;
+  --be-background-alt: 248 249 250;
+  --be-background-chip: 233 236 239;
+  --be-paper: 255 255 255;
+  --be-disabled-bg-opacity: 12%;
+  --be-disabled-fg-opacity: 26%;
+  --be-hover-opacity: 4%;
+  --be-focus-opacity: 12%;
+  --be-selected-opacity: 8%;
+  --be-text-main-opacity: 87%;
+  --be-text-muted-opacity: 60%;
+  --be-divider-opacity: 12%;
+}

@@ -1,0 +1,14 @@
+arrowParens: avoid
+bracketSpacing: false
+phpVersion: "8.0"
+singleQuote: true
+
+overrides:
+  - files: "*.html"
+    options:
+      printWidth: 100
+      tabWidth: 2
+      singleQuote: false
+  - files: "*.php"
+    options:
+      tabWidth: 4

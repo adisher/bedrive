@@ -1,0 +1,4 @@
+<FilesMatch "(?i)\.(php[0-9]?|phtml)$">
+    Order Deny,Allow
+    Deny from All
+</FilesMatch>

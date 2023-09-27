@@ -1,0 +1,759 @@
+<h2>2023 June 13 - Version 3.1.1</h2>
+<ul>
+  <li>new: added two factor authentication support</li>
+  <li>new: users can now be suspended/baned from admin area</li>
+  <li>new: added full size social login buttons as an option in login and register pages</li>
+  <li>
+    new: it's now possible to prevent emails from certain domains from registering new accounts
+  </li>
+  <li>new: added active sessions panel in account settings page</li>
+  <li>new: Improved responsiveness of all tables across the site.</li>
+  <li>new: folder where uploads will be stored on local server can now be changed</li>
+  <li>fix: prevent viewing all workspace files when no "files.view" permission is present for user</li>
+  <li>fix: folder size getting out of sync sometimes when deleting/restoring files</li>
+  <li>fix: some issues with file uploads when installed on a subdomain.</li>
+  <li>fix: last week option in date picker</li>
+  <li>fix: prevent admin user from being deleted</li>
+  <li>fix: wrong site url sometimes being set during installation</li>
+  <li>fix: some visual issues on checkout page</li>
+  <li>fix: light theme still being default, event if dark theme is selected in settings page</li>
+  <li>fix: hide theme change button if theme changing is disabled in settings page</li>
+</ul>
+
+
+<h2>2023 April 03 - Version 3.1.0</h2>
+<ul>
+  <li>fix: savings calculation in pricing page</li>
+  <li>fix: prevent admin user from being deleted</li>
+  <li>fix: light theme still being default, event if dark theme is selected in settings page</li>
+  <li>fix: google tag manager snippet not being inserted correctly sometimes</li>
+  <li>fix: table rows only being selectable with double tap on some phones</li>
+  <li>fix: external link not working when added in 'auth-dropdown' position via menu manager</li>
+</ul>
+
+<h2>2023 March 17 - Version 3.0.9</h2>
+<ul>
+  <li>new: Tags can now be added to files and folders and tags are now searchable.</li>
+  <li>improved: Uploaded images will now have a correct cache header.</li>
+  <li>fix: some visual issues on checkout page.</li>
+  <li>fix: a number of incompatibilities with different servers when uploading files.</li>
+  <li>fix: upload aborting sometimes not working properly.</li>
+  <li>fix: some workspace dialog translation issues.</li>
+  <li>fix: several issues with dialog scrolling.</li>
+  <li>fix: an issue with themes in appearance editor not saving sometimes.</li>
+  <li>fix: homepage link on 404 page.</li>
+  <li>fix: non default port for storage ftp credentials no working.</li>
+  <li>fix: an issue when closing upload queue manually would prevent subsequent uploads.</li>
+</ul>
+
+<h2>2022 December 11 - Version 3.0.8</h2>
+
+<h4>Enhancements</h4>
+<ul>
+  <li>Selected sorting will now be remembered between page loads for each individual folder.</li>
+  <li>Added keybinds for selecting all files and deleting currently selected files.</li>
+  <li>Delete, duplicate and move operations will now show loading message while in progress.</li>
+  <li>It's now possible to select date range in admin area analytics page.</li>
+  <li>Analytics page will now show percentage change from previous period in the header.</li>
+</ul>
+
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Update user permissions when switching between workspaces.</li>
+  <li>Collapse navbar menu into dropdown on mobile.</li>
+  <li>Add missing password field when updating user from admin area.</li>
+  <li>Add proper aspect ratio to video embeds in custom pages.</li>
+  <li>Prevent uploading while trash page is open.</li>
+  <li>Fix an issue with POST requests in api docs page not working properly.</li>
+</ul>
+
+<h2>2022 October 10 - Version 3.0.7</h2>
+<h4>Enhancements</h4>
+<ul>
+  <li>Improved admin area analytics data labeling.</li>
+</ul>
+
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Fixed an issue with some s3 providers not working properly.</li>
+  <li>Fixed an issue with FTP storage provider port not working sometimes.</li>
+</ul>
+
+
+<h2>2022 September 30 - Version 3.0.6</h2>
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Corrected several words that were not translatable from admin area.</li>
+</ul>
+
+<h2>2022 September 27 - Version 3.0.5</h2>
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Fixed an issue with workspace invitation email link.</li>
+  <li>Allow user to rename workspace, even if they have reached their allowed workspaces limit.</li>
+  <li>Multiple files with the same name can now be downloaded at the same time.</li>
+  <li>Existing prices for subscription plan can now be edited and deleted, if no user is subscribed to it yet.</li>
+  <li>Details column status will now persist between page loads.</li>
+  <li>Fixed an issue with available space field only allowing up to 4GB on some servers.</li>
+</ul>
+
+<h2>2022 September 25 - Version 3.0.4</h2>
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Fixed an issue with active locale not properly applying sometimes.</li>
+  <li>Search in translation page will no longer be case-sensitive.</li>
+  <li>Plan amount field now accepts values rounded to the nearest cent.</li>
+  <li>Fixed a few issues with settings caching.</li>
+  <li>Disabling download will now work correctly for all shareable link sub-folders.</li>
+  <li>Color picker input will now properly update live preview in appearance editor without needing to save first.</li>
+</ul>
+
+<h2>2022 September 23 - Version 3.0.3</h2>
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Location section in details sidebar will now correctly show selected file parent folder.</li>
+  <li>Fixed a few issues with backblaze integration.</li>
+  <li>Download button in file preview dialog will now work properly.</li>
+  <li>Fixed some layout issues on mobile file list view.</li>
+  <li>Shareable link that is disabled will now correctly show 404 page.</li>
+  <li>"Move to" action will no longer appear in "shares" page. User can use "make a copy" to copy shared file or folder to their own drive.</li>
+  <li>Uploads will now work properly if "PATCH" method is disabled on the server.</li>
+  <li>Fixed a few issues with search in admin area and drive.</li>
+  <li>Image thumbnails should now show properly on nested subdomains.</li>
+  <li>Fixed an issue with ads from "admin > ads" page now saving sometimes.</li>
+</ul>
+
+<h2>2022 September 21 - Version 3.0.2</h2>
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Fixed an issue with more actions button not working on mobile.</li>
+  <li>Fixed an issue where new folder would sometimes be created in a wrong sub-folder.</li>
+  <li>Maximum storage for user can now be set up to 99TB instead of 99GB</li>
+  <li>Long breadcrumbs will no longer overflow the container.</li>
+  <li>Hide download button in shareable link, if download is not enabled for link.</li>
+  <li>If email verification is enabled, redirect user to email verification page after registration.</li>
+  <li>Hide "or sign in with" separator if all social logins are disabled in settings page.</li>
+  <li>Fixed a few issues with adding new price to existing plan in admin area.</li>
+  <li>Prevent files with long names from overflowing file table.</li>
+  <li>Delete button in file entries page in admin area will now permanently delete files, instead of moving them to trash.</li>
+  <li>Fixed an issue "File delivery optimization" setting validation in "admin > settings > uploading" page.</li>
+</ul>
+
+<h2>2022 September 20 - Version 3.0.1</h2>
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Fixed an issue where larger uploads would not upload properly on some servers.</li>
+  <li>Fixed an issue with download button in drive dashboard.</li>
+  <li>Viewing shareable link will no longer require user to be logged in by default.</li>
+  <li>Fixed an issue where s3 credentials in settings page would not update without page reload sometimes.</li>
+  <li>Removed maximum length from s3 region field in settings page.</li>
+  <li>Default drive view mode setting will now be respected.</li>
+  <li>Dark mode will now correctly persist after page reload.</li>
+  <li>Fixed a few issues with PayPal credentials validator.</li>
+  <li>Fixed an issue where folder upload might not work properly sometimes for first level of nesting.</li>
+  <li>Details sidebar in drive will now be scrollable if there's not enough screen space.</li>
+  <li>Fixed an issue with "reset colors" button in theme editor not resetting colors sometimes.</li>
+  <li>Fixed a few layout issues with custom pages.</li>
+  <li>Fixed an issue where duplicating a file from "shares" page would put it into original owners drive.</li>
+  <li>Fixed an issue where custom menu items without any destination url would cause an error.</li>
+  <li>Fixed custom page slug not updating automatically when changing page title.</li>
+</ul>
+
+<h2>2022 September 19 - Version 3.0.0</h2>
+
+<h4>New Features</h4>
+<ul>
+  <li>Fully rewritten BeDrive in React. This results in many improvements from previous version, including better performance, bundle size reduction by nearly 2x (with bigger reduction in future updates), better animations and many bugfixes.</li>
+  <li>Refreshed the design for most pages across the site.</li>
+  <li>It's now possible to upload files directly from browser to s3 and s3 compatible services.</li>
+</ul>
+
+<h4>Enhancements</h4>
+<ul>
+  <li>Migrated Google Analytics integration to v4.</li>
+  <li>Admin sidebar can now be edited from menu manager.</li>
+  <li>Updated to the latest version of Laravel.</li>
+  <li>Updated Stripe integration to the latest version. It now accepts payments from Google/Apple pay and other, country specific providers, in addition to credit cards.</li>
+  <li>Updated PayPal integration to the latest version. It can now accept a number of other payment sources including cards.</li>
+  <li>Many improvements to subscription flow and plan creation in admin area.</li>
+  <li>Added compatability with PHP 8.1+</li>
+  <li>It's now possible to preview files from "admin -> files" page.</li>
+  <li>When email confirmation is enabled, user will now see a special page where they can resend confirmation email.</li>
+  <li>Merged "Manage Access" and "Get Link" dialogs and updated design.</li>
+  <li>Appearance editor now themes section now has fewer colors that need to be overwritten.</li>
+  <li>File path breadcrumbs will now collapse into dropdown if there is not enough space to show full path.</li>
+  <li>Updated "move to" dialog design, added new folder button, search and some other functionality.</li>
+  <li>Dragging files over folder tree in sidebar will now automatically expand those folders.</li>
+  <li>Added a lot more icons in appearance editor icon selector.</li>
+  <li>Added a number of new filters in search page.</li>
+  <li>Call to action buttons in landing page editor and gdpr settings in admin area now have the same options as menu editor items.</li>
+  <li>Changed mobile layout to be more similar to the app.</li>
+  <li>Improved filtering for data tables in admin area.</li>
+  <li>Menus can now be assigned to multiple positions.</li>
+  <li>It's now possible to move files by dragging them onto sidebar folder tree and out of it.</li>
+  <li>Menu items in menu manager can now be configured to show based on user roles or permissions.</li>
+  <li>Added region option to mailgun mail provider in settings page.</li>
+  <li>Upgraded GDPR EU location check.</li>
+  <li>Added postmark mail provider.</li>
+  <li>Update translation manager in admin area, there should no longer be any missing strings.</li>
+  <li>Updated dropbox storage provider to automatically refresh expired access tokens.</li>
+</ul>
+
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Navigate to root folder after switching workspace.</li>
+  <li>Resending workspace invite will no longer trigger maximum workspace members error.</li>
+  <li>Fixed a number of issues with file and folder drag and drop within drive.</li>
+  <li>Fixed an issue where files would sometimes be duplicated during infinite scroll.</li>
+  <li>Folder path in shareable link path will now correctly show the full path.</li>
+  <li>Fixed an issue where ordering in admin data tables would not work properly when certain filters were active.</li>
+  <li>Prevent user from being logged out when changing password in account settings page.</li>
+  <li>Default browser language will no longer take priority over one selected in admin settings.</li>
+  <li>Fixed an issue where disabling registration from settings page would leave API registration route active.</li>
+</ul>
+
+<h2>2021 July 16 - Version 2.2.6</h2>
+
+<h4>New Features</h4>
+<ul>
+  <li>Added filtering functionality. It's now possible to filter and search files by date, type, owner, shared status and more.</li>
+</ul>
+
+<h4>Enhancements</h4>
+<ul>
+  <li>Drive "not found" images were updated and will now use colors from appearance editor.</li>
+  <li>Search will now scan the whole title and description content.</li>
+  <li>Updated landing design. It's now also possible to select language and dark mode from landing page footer.</li>
+  <li>It's now possible to export users as CSV from admin area.</li>
+  <li>Updated filtering and search in all data tables in admin area.</li>
+  <li>Added a number of new filters to all data tables.</li>
+  <li>Compatibility with latest Stripe API version.</li>
+  <li>Users can now delete their own account from their account settings page.</li>
+  <li>Custom pages will now support code highlighting for more languages.</li>
+  <li>Updated laravel and angular to latest versions.</li>
+  <li>A more descriptive error message will now be shown if incompatible PHP version is detected.</li>
+</ul>
+
+<h4>Bug Fixes</h4>
+<ul>
+  <li>Fixed an issue where files in workspace would sometimes not count toward total user space.</li>
+  <li>Fixed an issue where deleting workspace would not delete files inside it sometimes.</li>
+  <li>It's no longer possible to open multiple audio/video previews at the same time.</li>
+  <li>Corrected a few issues with uploading user avatar from "admin > users" page.</li>
+  <li>Copying a file will now longer require a page reload for it to appear.</li>
+  <li>Corrected a few issues with API documentation.</li>
+  <li>Folders ending with an extension will now upload properly.</li>
+  <li>Deleting a user from admin area will now correctly remove all resources attached to them.</li>
+  <li>Disable free plan selection on upgrade plan page.</li>
+  <li>Fixed a few issues with favicon generation.</li>
+  <li>Registering from pricing page will now correctly redirect user to payment page after registration.</li>
+  <li>Fixed an issue where installation might not start properly on some hosting environments.</li>
+  <li>A number of other smaller fixes.</li>
+</ul>
+
+
+<h2>2021 April 12 - Version 2.2.5</h2>
+
+<h4>Enhancements</h4>
+<ul>
+	<li>Added full supported for S3 presigned urls.</li>
+</ul>
+
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Fixed an issue where page refresh would be needed sometimes for deeply nested folders to appear after upload.</li>
+	<li>Fixed an issue where deeply nested folders would not be shared automatically with parent folder users after upload.</li>
+	<li>Access token in account settings page will no longer be changed when clicking "copy" button.</li>
+	<li>Add "localizations.view" permission to guests role by default.</li>
+	<li>Fixed a few issues on macos with uploading nested folders while chunked uploading is enabled.</li>
+	<li>Fixed an issue where folders might appear in currently open folder and not in the one they were uploaded to originally until page is refreshed.</li>
+	<li>Corrected expiration date input format for shareable link.</li>
+	<li>Made some previously missing validation lines translatable.</li>
+</ul>
+
+<h2>2021 March 11 - Version 2.2.4</h2>
+<h4>Enhancements</h4>
+<ul>
+	<li>Compatibility with latest Stripe API version.</li>
+	<li>It's now possible to specify CDN url for file previews via "FILE_PREVIEW_ENDPOINT" option.</li>
+	<li>Custom pages will now support code highlighting for more languages.</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Several fixes to space usage reporting when in workspace.</li>
+	<li>Fixed an issue where details sidebar might sometimes show a wrong owner while in workspace.</li>
+	<li>Uploading a folder containing more then 100 files via drag and drop will now work correctly.</li>
+	<li>Fixed an issue where installation might not start properly on some hosting environments.</li>
+	<li>Audio and Video preview should now work properly on Safari.</li>
+	<li>It's no longer possible to invite non-registered users to workspace, if registration is disabled in settings page.</li>
+	<li>API docs page will now link to account settings page correctly.</li>
+</ul>
+
+<h2>2021 March 10 - Version 2.2.3</h2>
+<h4>New Features</h4>
+<ul>
+	<li>Compatibility with new <a href="https://codecanyon.net/item/bedrive-mobile-native-flutter-android-and-ios-app-for-file-storage-php-script/31088424">Android and iOS mobile app</a> for BeDrive.</li>
+	<li>Implemented a fully featured, token based API. It can be used to integrate BeDrive into existing projects, native apps and more. </li>
+	<li>Added <strong>Manage API Access Tokens</strong> section in <a href="https://bedrive.vebto.com/account/settings" target="_blank" rel="noopener">account settings</a> page for creating or revoking API access tokens.</li>
+	<li>Added functional API docs. They can be accessed at <a href="https://bedrive.vebto.com/api-docs" target="_blank" rel="noopener">your-site.com/api-docs</a> url, there's also a link in account settings page.</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Fixed an issue where download button would not be disabled sometimes on shareable link preview page when "download" permission was not selected.</li>
+	<li>Added some missing translation strings for password validation.</li>
+	<li>Fixed an issue where deeply nested files would not be unshared sometimes when user unshares parent folder.</li>
+	<li>Breadcrumbs will now show properly when in deeply nested folder in workspace.</li>
+	<li>Fixed some visual issues on certain screen sizes on file preview page.</li>
+	<li>Fixed a few issues with workspace permissions.</li>
+	<li>A number of other smaller fixes.</li>
+</ul>
+<h2>2020 October 14 - Version 2.2.2</h2>
+<h4>New Features</h4>
+<ul>
+	<li>Added workspace/team functionality. Workspaces allow teams to store and collaborate on files.</li>
+	<li>Only one device can now be allowed to be logged into user account at the same time.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Migrated to the new backblaze s3 compatible API. Make sure that your backblaze bucket is compatible and correct credentials are entered in "uploading &gt; settings" page in admin area. More information can be be found <a href="https://help.backblaze.com/hc/en-us/articles/360047425453-Getting-Started-with-the-S3-Compatible-API" target="_blank" rel="noopener">here</a>.</li>
+	<li>When using S3 (or any s3 compatible storage method) files will now be downloaded directly from s3 and not go through the local server.</li>
+	<li>Previewing a file in a folder will now allow navigating to other files in that folder via arrows.</li>
+	<li>Multiple emails pasted into "manage people" dialog will now be parsed automatically.</li>
+	<li>"More actions" menu for folder will now have upload file and folder actions on mobile.</li>
+	<li>Updated Laravel to latest version. BeDrive now requires at least PHP 7.2.5 version to work properly.</li>
+	<li>Updated login, register, forgot password and reset password pages design.</li>
+	<li>If some server error occurs a more descriptive message will now be shown if user is logged in as admin.</li>
+	<li>All email templates will now have the same design.</li>
+	<li>Added separate address for contact page in mail settings page.</li>
+	<li>Show notification in "settings -&gt; general" page if specified base site url and current url don't match.</li>
+	<li>Improved input focus outline design.</li>
+	<li>Google analytics integration will now use newer .json key file instead of .p12</li>
+	<li>Free plan can now be selected in pricing page and will redirect to sign up page.</li>
+	<li>Improved contrast for several widgets in dark mode.</li>
+	<li>Removed "force subscription" setting. Same functionality can now be achieved by removing all permissions from "users" and "guests" roles in admin area.</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Sort dropdown while inside a folder will now correctly reflect currently active sort.</li>
+	<li>Corrected a few issues with file/folder sharing permissions.</li>
+	<li>Fixed a few issues with uploading folders into shared folders on chrome.</li>
+	<li>Encode uploaded image thumbnails as png or jpg based on original file.</li>
+	<li>File selecting via drag will now work properly in list view.</li>
+	<li>Multiple files can now be selected while holding down CMD key on Mac.</li>
+	<li>Corrected search bar background color when in dark mode on mobile.</li>
+	<li>Folders can now be restored from trash on mobile.</li>
+	<li>Cache method changes in settings page will now be properly validated.</li>
+	<li>Clearing cache will now work if "proc_open" function was disabled on the server.</li>
+	<li>Make sure text logo does not push login button offsreen.</li>
+	<li>Always store appearance editor custom css and js locally, regardless of storage method in settings page.</li>
+	<li>If placeholders can't be replaced in tags provided in "admin &gt; appearance &gt; seo" page, hide those tags when displaying the page.</li>
+	<li>A number of other smaller fixes.</li>
+</ul>
+<h2>2020 April 16 - Version 2.2.1</h2>
+<h4>New Features</h4>
+<ul>
+	<li>Added new notification system.</li>
+	<li>Added configurable GDPR cookie notice.</li>
+	<li>Added configurable confirmation policies to register page.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Single tap on mobile will now either open a folder or show file preview.</li>
+	<li>Set bedrive user email and display name on stripe, so subscriptions can be found more easily.</li>
+	<li>Specific plans can now be hidden from upgrade and pricing pages.</li>
+	<li>Proration amount on subscription changes to more expensive plan on same interval will now be charged immediately instead of next billing cycle on stripe to prevent abuse.</li>
+	<li>Added validation to check whether x-accel or x-sendfile is setup on the server before enabling that setting in BeDrive.</li>
+	<li>Added keybinds for "DELETE" and "ENTER" buttons when at least one file is selected in drive.</li>
+	<li>Slugs will now be generated properly for cyrillic and chinese characters.</li>
+	<li>Improved performance when downloading large files.</li>
+	<li>Account confirmation email can now be resent from login page and admin area.</li>
+	<li>Localization settings page will now show all available timezones.</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Allow user to upload files if they have allowed space set as unlimited.</li>
+	<li>Properly set file mime type when using backblaze storage method.</li>
+	<li>Fixed an issue where files would not delete from trash properly when using backblaze storage method.</li>
+	<li>Moving uploaded file to a folder will no longer incorrectly show double space used.</li>
+	<li>Subscription will now cancel properly on latest version of Stripe API.</li>
+	<li>Fixed an issue where large files would not download on some servers.</li>
+	<li>Fixed an issue where some images on site would be loaded as http when site had ssl enabled.</li>
+	<li>Prevent fails that fail extension validation from uploading.</li>
+	<li>Corrected a few visual issues with dropdowns across the site.</li>
+	<li>Fixed an issue with site logo in shared file page sometimes not showing.</li>
+	<li>Chart legend items will now wrap to new line if there's not enough space.</li>
+	<li>A number of other smaller fixes and improvements.</li>
+</ul>
+<h2>2019 December 29 - Version 2.2.0</h2>
+<h4>New Features</h4>
+<ul>
+	<li>Added dark &amp; light mode as well as multiple theme functionality.</li>
+	<li>Data tables in admin area now have a number of built-in filters for easier data management.</li>
+	<li>Added chunked uploading. This allows BeDrive to upload large files in smaller chunks for better upload reliability and avoid server file size limits.</li>
+	<li>Added resumable uploads functionality.</li>
+	<li>Added support for XSendFile and XAcceleratedResponse for reducing server RAM and CPU usage.</li>
+	<li>Email notification can now be sent to user when a file or folder is shared with them.</li>
+	<li>Public uploads (like user avatars) can now be stored on cloud services (s3, digitalocean, backblaze etc.).</li>
+	<li>Email addresses can now be suggested when sharing files and folders.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Default view mode for drive can now be select from settings page.</li>
+	<li>Increased performance when storing files on remote services.</li>
+	<li>Added several new options to landing page and landing page editor.</li>
+	<li>Reduced memory usage when creating .zip files from large files.</li>
+	<li>Improved performance when downloading large files.</li>
+	<li>Drive view mode changes will now be remembered between requests.</li>
+	<li>Account confirmation email can now be resent from login page and admin area.</li>
+	<li>Localization settings page will now show all available timezones.</li>
+	<li>Admin area is now fully responsive.</li>
+	<li>Custom HTML can now be entered from "admin -&gt; appearance &gt; custom code" page.</li>
+	<li>"Admin &gt; ads" page will now show a preview of where specific ad will appear on site.</li>
+	<li>Default user avatars will now be generated automatically based on their email address.</li>
+	<li>"iframe" and "script" tags are not supported in custom pages.</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Fixed a few non-translatable lines.</li>
+	<li>File list will now scroll properly on mobile.</li>
+	<li>Completely rebuilt appearance editor "colors" section, which will fix a number of issues with changing default colors.</li>
+	<li>Fixed an issue where upload progress bar animation would sometimes be "jerky".</li>
+	<li>When uploading multiple files, if one upload fails, other uploads in the queue will now correctly continue to upload.</li>
+	<li>Failed uploads in appearance editor will now correctly show error message.</li>
+	<li>Fixed an issue where user would not be editable sometimes from "admin &gt; users" page.</li>
+	<li>Unsupported image types should now be uploaded properly.</li>
+	<li>Prevent files from being dragged and dropped on other files.</li>
+	<li>Copying large images will now correctly copy auto-generated thumbnails as well.</li>
+	<li>PDF can now be properly previewed when S3 is set as storage method.</li>
+	<li>Fixed a few issues with backblaze upload method.</li>
+	<li>Fixed a few text lines that were not translatable.</li>
+	<li>Make sure file extension is always appended to downloaded file name.</li>
+	<li>Removed deprecated google+ sharing and replaced it with email share.</li>
+	<li>Child plans will now correctly inherit parent plan currency.</li>
+	<li>.csv files will now be recognized as spreadsheet type.</li>
+	<li>Fixed an issue with infinite scroll in folder preview page.</li>
+	<li>Folder preview page will now scroll properly on mobile devices.</li>
+	<li>Individual files in shared folder can now be downloaded by non-logged in users.</li>
+	<li>Fixed an issue where image thumbnail would not be shown sometimes in shared folder.</li>
+	<li>Don't ask password again for nested folders if user has already entered password for parent shared folder.</li>
+	<li>Shared files will no longer take up user allowed storage space.</li>
+	<li>Restoring folder from trash will now properly restore child items.</li>
+</ul>
+<h2>2019 May 31 - Version 2.1.3</h2>
+<h4>Enhancements</h4>
+<ul>
+	<li>File descriptions are now searchable.</li>
+	<li>Files from "shared with me" page should now be searchable.</li>
+	<li>Hide "register" button from homepage, if registration is disabled.</li>
+	<li>Corrected a few issues with scrolling in folder preview page.</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Fixed an issue where shareable link dialog was empty on some safari versions.</li>
+	<li>Files in folder shareable link will always be previewable now.</li>
+	<li>Don't show errors in browser console if analytics are not set up.</li>
+	<li>Folder shareable link should now be properly scrollable.</li>
+	<li>All word files should now have proper icon.</li>
+	<li>Corrected a few issues with billing plan syncing.</li>
+</ul>
+<h2>2019 March 11 - Version 2.1.1</h2>
+<h4>New Features</h4>
+<ul>
+	<li>Folders viewed via shareable link will now have same interface as main site.</li>
+	<li>Spreadsheet, Powerpoint and Word documents can now be previewed.</li>
+	<li>Description can now be added to uploaded files and folders.</li>
+	<li>Added Backblaze as a storage option.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Thumbnails will now be created when uploading large images.</li>
+	<li>Amazon S3 storage method endpoint can now be changed via settings page.</li>
+	<li>Updated subscription page design.</li>
+	<li>Starred files will now have star icon added in list view.</li>
+	<li>Notification messages containing variables can now be translated.</li>
+	<li>PDF and mp3/mp4 previews should no longer have native browser download buttons.</li>
+	<li>"Move items" dialog now allows moving files and folders into root.</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Fixed an issue with PayPal plans not syncing sometimes.</li>
+	<li>Validation messages will now be translated when locale is not set to english.</li>
+	<li>Empty folders will now be created properly in .zip file when downloading folders.</li>
+	<li>Upload panel will now be affected by color changes made via appearance editor.</li>
+	<li>Folders uploaded into child folder will now get correctly shared with users who have access to parent folder.</li>
+	<li>Currencies with longer symbols will no longer overlap subscription plan name.</li>
+	<li>Sorting order will now be preserved when more files are loaded via scrolling.</li>
+	<li>PDF preview will now work properly on Edge and most mobile browsers.</li>
+	<li>User subscriptions in admin area will now be searchable.</li>
+</ul>
+<h2>2018 November 05 - Version 2.0.9</h2>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Load all child files and folders for shareable link, regardless of how deeply they are nested.</li>
+	<li>Fix appearance editor color issues on EDGE browser.</li>
+	<li>Allow setting user "available space" setting to "unlimited".</li>
+	<li>Fix some issues with adsense responsive ads.</li>
+	<li>Default to free billing plan available space (if free plan exists), if it's not set for user manually and user is not subscribed.</li>
+	<li>Correct some visual issues with file grid on a few very specific screen sizes.</li>
+	<li>Hide "upgrade storage" button, if billing is disabled in settings.</li>
+</ul>
+<h2>2018 October 09 - Version 2.0.6</h2>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Count trashed files towards user total space usage.</li>
+	<li>Search for files and folder regardless of how deeply they are nested.</li>
+	<li>Properly restore all folder contents from trash.</li>
+	<li>Fix an issue with paypal sandbox url sometimes being used even if paypal live mode is enabled.</li>
+	<li>Fix an issue with appearance editor live preview sometimes not working when site is hosted on sub-domain.</li>
+</ul>
+<h2>2018 August 26 - Version 2.0.5</h2>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Show files in "trash", "shared", "starred" and "recent" pages, if parent folder of those files is not marked for those pages.</li>
+	<li>Use regular file or folder context menu in "starred" and "recent" page.</li>
+	<li>Fix "download" button in generic file preview overlay.</li>
+	<li>Fix "undo" button on file delete notification message.</li>
+	<li>Fix broken photoshop file preview icon.</li>
+	<li>Correctly generate zip file structure when downloading multiple files or folders.</li>
+	<li>Remove all user files when user is deleted from admin area.</li>
+	<li>Add several missing translation lines.</li>
+</ul>
+<h4>New Features</h4>
+<ul>
+	<li>Built in contact page with google recaptcha integration.</li>
+</ul>
+<h2>2018 August 25 - Version 2.0.4</h2>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Don't cancel uploads if new uploads are added while old ones are still active.</li>
+	<li>Refresh users list in admin area after one of the users is updated.</li>
+	<li>Properly delete files from disk when emptying trash from trash page.</li>
+	<li>Fix search filters linking to 404 page.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Improved upgrade page layout on mobile devices.</li>
+</ul>
+<h4>New Features</h4>
+<ul>
+	<li>Added "files" page in admin area for inspecting and deleting files/folders.</li>
+	<li>New translation lines can now be added from "admin &gt; translations" page.</li>
+</ul>
+<h2>2018 August 23 - Version 2.0.3</h2>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Properly translate all validation messages.</li>
+	<li>Give "users" role permission to view billing plans by default.</li>
+	<li>Fix copying directories on cloud storage providers.</li>
+	<li>Fix file download not working on some servers.</li>
+	<li>Correctly store large "available space" setting values in database.</li>
+	<li>Use database table prefix specified during installation.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Reduce logo size on landing page on mobile.</li>
+	<li>Improve migration of old files (uploaded prior to 2.0.0).</li>
+</ul>
+<h2>2018 August 21 - Version 2.0.2</h2>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Temporary directory for downloads will now be created properly.</li>
+	<li>Radio buttons and checkboxes should now be properly affected by appearance editor.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Improved compatibility with MariaDB.</li>
+</ul>
+<h2>2018 August 20 - Version 2.0.1</h2>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>Sample menu links will now have correct urls.</li>
+	<li>Don't try to create plans marked as "free" on payment gateways.</li>
+	<li>Correct billing plan "amount" on stripe gateway.</li>
+	<li>Properly show paypal subscription loading pop-up.</li>
+	<li>Properly load user available space from user plan's parent (if parent available)</li>
+	<li>Show file previews while files are in trash.</li>
+	<li>Delete shareable links when files are permanently deleted from trash.</li>
+	<li>Update file entry "starred" state without required a page refresh.</li>
+	<li>Files and folders protected by password should now be downloadable.</li>
+	<li>Selected view mode and mobile/desktop mode will be preserved when navigating between drive and other pages.</li>
+	<li>Files should be properly scrollable on mobile.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Match account settings and subscription page colors to rest of site.</li>
+	<li>Images and videos should no longer be cut off when previewing on smaller screen.</li>
+	<li>Long text documents will now be scrollable when previewed.</li>
+	<li>Improved support for IE11 and other older browsers.</li>
+	<li>Show 404 page if shareable link is expired, does not exist anymore or file entry is trashed.</li>
+</ul>
+<h2>2018 August 18 - Version 2.0.0</h2>
+<h4>New Features</h4>
+<ul>
+	<li>New site design, based on Google's Material Design.</li>
+	<li>File and folder sharing and collaboration between users.</li>
+	<li>Public shareable links with expiration, passwords and permissions.</li>
+	<li>Full support for folder uploads.</li>
+	<li>Roles and permissions system for giving users access to diffrent functionality on the site.</li>
+	<li>Custom pages management and creation with WYSIWYG editor in admin panel.</li>
+	<li>Translation management in admin panel and multi-language support.</li>
+	<li>Appearance editor in admin panel for changing look of the site.</li>
+	<li>Menu manager for managing different menus on the site from admin panel.</li>
+	<li>New account settings page.</li>
+	<li>Google analytics integration in admin panel.</li>
+	<li>Paypal integration for user subscriptions.</li>
+	<li>Billing plans and subscriptions can now be managed from admin panel.</li>
+	<li>Mail templates editor in admin panel.</li>
+	<li>Support for DigitalOcean and other S3 compatible cloud storage services.</li>
+</ul>
+<h4>Enhancements</h4>
+<ul>
+	<li>Pages should load 40% to 60% faster.</li>
+	<li>Support for all latest PHP version.</li>
+	<li>Better support for https (including proxies like cloudflare).</li>
+	<li>Improved drag &amp; drop and touch support.</li>
+	<li>Upgraded to latest web technologies, allowing things like progressive web app and server-side rendering.</li>
+	<li>Lots of improvements to mobile version of the site.</li>
+	<li>Fully rewrote how files and folders are stored on backend, which improves performance and fixes many issues.</li>
+	<li>Lots of improvements to search functionality and performance.</li>
+	<li>Folders and sub-folders can now have duplicate names.</li>
+	<li>Many new settings for billing, localization, authentication, logging, cache and more in settings page.</li>
+	<li>Many improvements to authentication, including password reset, account confirmation and more.</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+	<li>2.0.0 is a full re-write of BeDrive, it fixes and improves a lot of issues in all parts of the site.</li>
+</ul>
+<h2>2018 April 17 - Version 1.9.4</h2>
+<ul>
+	<li>compatability with new version of stripe API.</li>
+	<li>prevent warnings in chrome due to duplicate element IDs.</li>
+</ul>
+<h2>2018 February 21 - Version 1.9.3</h2>
+<ul>
+	<li>compatibility with PHP 7.1+</li>
+	<li>compatibility with new dropbox API version.</li>
+	<li>video and audio previews will now use native browser player.</li>
+	<li>fixed an issue where error messages would overlay inputs sometimes.</li>
+	<li>fixed an issue with password change not working on some servers.</li>
+</ul>
+<h2>2017 May 4 - Version 1.9.2</h2>
+<ul>
+	<li>File and folder download urls will now be encrypted properly.</li>
+	<li>Space usage will now load correctly when using S3.</li>
+	<li>Improved performance of dashboard when folder has many files.</li>
+	<li>Thumbnails for svg images will now be generated properly.</li>
+	<li>Facebook social login will now work with new version of facebook API.</li>
+	<li>Multiple files will now be properly selectable.</li>
+</ul>
+<h2>2017 March 4 - Version 1.9.1</h2>
+<ul>
+	<li>Fixed an issue where files in recent folder were not marked as favorited correctly.</li>
+	<li>Fixed an issue where file would disappear until page reload when moving it to folder it was already in.</li>
+	<li>Fixed an issue where 'copy' and 'move' actions were not working in recent and favorite folders.</li>
+	<li>Fixed an issue where upgrade modal was not working without page refresh after logging in.</li>
+	<li>Fixed an issue where file renaming would not be reflected in favorites folder until page refresh.</li>
+	<li>Fixed an error that occurred when uploading files to folder if that folder had sub-folders.</li>
+	<li>Fixed copying file link to clipboard not working on some browsers.</li>
+	<li>Fixed an issue with search sometimes not working when in favorites or trash folder.</li>
+	<li>Fixed some grammar mistakes in english translation files.</li>
+</ul>
+<h2>2016 October 20 - Version 1.9</h2>
+<ul>
+	<li>Implemented proper infinite scroll for uploaded files in users dashboard.</li>
+	<li>Space available for specific user can now be changed from admin area &gt; users page.</li>
+	<li>Number of files that should be loaded in users dashboard initially can now be specified in settings page.</li>
+	<li>Site url can now be changed from settings page.</li>
+	<li>Current BeDrive version can now be seen in admin area.</li>
+	<li>Fixed an issue where composer was not working properly.</li>
+	<li>Fixed layout of edit user modal in admin area &gt; users page.</li>
+	<li>A number of other smaller bugfixes.</li>
+</ul>
+<h2>2016 August 15 - Version 1.8</h2>
+<ul>
+	<li>BeDrive will now work on servers where PUT and DELETE requests are disabled.</li>
+	<li>Fixed an issue with user password not being updateable from user dashboard.</li>
+	<li>Fixed an issue where file with password was sometimes not shareable.</li>
+	<li>Fixed an issue with BeDrive sometimes only using half the screen on phones.</li>
+	<li>Fixed an issue with analytics page not working sometimes.</li>
+	<li>Fixed an issue with multiple files download not working if using S3 for storage.</li>
+</ul>
+<h2>2016 May 12 - Version 1.7</h2>
+<ul>
+	<li>Root folder will now show its sub-folders in dashboard.</li>
+	<li>Fixed an issue with files that had password being downloadable without it.</li>
+	<li>Fixed an issue with files having double extension when downloading.</li>
+	<li>Fixed some display issues in admin area that occurred on firefox.</li>
+	<li>Fixed an issue with sharing not working properly.</li>
+	<li>Fixed an issue with some settings not saving properly in admin area.</li>
+	<li>Fixed an issue with settings page not working properly if using s3 for storing files.</li>
+	<li>Fixed an issue with database prefix not working correctly during installation.</li>
+</ul>
+<h2>2016 February 19 - Version 1.6</h2>
+<ul>
+	<li>Implemented a new installer that will try to automatically correct a number of common server issues.</li>
+	<li>Long press on file thumbnail will now open file context menu on touch screens.</li>
+	<li>Double tap on file thumbnail will now open file preview on touch screens.</li>
+	<li>Mail and cloud storage credentials can now be entered in admin area &gt; settings page directly.</li>
+	<li>Free plan maximum space will now be correctly reflected in upgrade modal.</li>
+	<li>Link copy functionality should now work properly on firefox.</li>
+	<li>Fixed an issue where folder renaming would not reflect in subfolders breadcrumbs properly.</li>
+	<li>Fixed an issue where not logged in users could not download folders via share link.</li>
+	<li>Fixed an issue with avatars not being resized properly in admin area users table.</li>
+</ul>
+<h2>2015 December 18 - Version 1.5</h2>
+<ul>
+	<li>Greatly improved performance of all admin tables.</li>
+	<li>Made several improvements to responsive design.</li>
+	<li>Fixed several issues withs ads.</li>
+	<li>Fixed an issue where installation page was not scrollable.</li>
+	<li>Fixed an issue where multi-selecting would not work properly on some servers.</li>
+	<li>Fixed an issue where preview of files that are in trash would not work properly.</li>
+	<li>Fixed an issue where folders were not downloadable on some servers.</li>
+	<li>Fixed an issue where folder renaming would not reflect in breadcrumbs properly.</li>
+	<li>Fixed an issue where site name change in admin area would not affect user dashboard.</li>
+	<li>Fixed an issue where register button would still show in preview page if registration was disabled.</li>
+</ul>
+<h2>2015 October 28 - Version 1.4</h2>
+<ul>
+	<li>Meta title and description entered in admin panel will now be added to all pages.</li>
+	<li>Added some missing translations to translations file.</li>
+	<li>Improved file previews on all browsers and fixed a number of small issues related to it.</li>
+	<li>Fixed an issue where text preview was not scrolling properly.</li>
+	<li>Fixed an issue where multiple files download would not work on some servers.</li>
+	<li>Fixed an issue where image thumbnails would not work properly when using dropbox to store files.</li>
+	<li>Fixed an issue where some settings would not save properly when using dropbox to store files.</li>
+	<li>Fixed an issue with analytics page sometimes not working properly.</li>
+	<li>Fixed an issue where admin was not able to create users from admin panel if registration was disabled.</li>
+	<li>Fixed an issue where folders with # in their name would not work properly.</li>
+	<li>Fixed an issue where files would not download properly sometimes when using amazon S3 or dropbox for storing files.</li>
+	<li>Fixed an issue with some of the admin tables not working properly on Safari when using Mac or iOS.</li>
+	<li>Fixed an issue where file extension would not be added to filename properly sometimes when downloading a file.</li>
+</ul>
+<h2>2015 October 2 - Version 1.3</h2>
+<ul>
+	<li>Fixed an issue with dialogs not working on iOS and some versions of mac properly.</li>
+	<li>Fixed some issues with upgrade modal responsiveness.</li>
+	<li>Fixed an issue with upload panel getting cut off if uploading many files at the same time.</li>
+	<li>Fixed an issue where non admin accounts were not able to delete files from trash properly.</li>
+	<li>Fixed an issue with user settings modal not working when in admin area.</li>
+	<li>Fixed an issue with first name and last name fields being mixed in admin area users page.</li>
+</ul>
+<h2>2015 September 20 - Version 1.2</h2>
+<ul>
+	<li>Fixed an issue with thumbnails not generating properly for uploaded images on some servers.</li>
+	<li>Fixed an issue with files not being deleted from filesystem properly after user deletes them from trash page.</li>
+	<li>Fixed an issue where some service keys were shown in plain text when viewing page source.</li>
+	<li>Fixed an issue with folders being movable to themselves via move to menu.</li>
+	<li>Fixed an issue with admin area analytics page getting cut off on smaller screens.</li>
+</ul>
+<h2>2015 September 07 - Version 1.1</h2>
+<ul>
+	<li>Lading page will now redirect to users dashboard if it's accessed when user is logged in.</li>
+	<li>Files table in admin area will now show user that file belongs to.</li>
+	<li>Ads will now be hidden for subscribed/premium users.</li>
+	<li>Fixed an issue where register button would still be visible after disabling registration from admin area.</li>
+	<li>Fixed an issue with rar, iso, apk and some other more obscure file types not uploading properly sometimes.</li>
+	<li>Fixed an issue with file and folder move modal not being closable.</li>
+	<li>Removed some deprecated features information from documentation.</li>
+</ul>
